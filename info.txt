@@ -1,0 +1,40 @@
+https://github.com/firebase/quickstart-js/blob/master/auth/chromextension/README.md
+
+id
+	ommhhicogjbbokncbpekkabkaaikimja
+key
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkQjUR4obcu2vAl5SpRGa
+Z5jK8igxPSlfyEUTXF92x9mxKky3jrGbiVMkXqdmz1izs8TZFmPvctBvKw1P0c8b
+0MsGFvZwihHewxaKqCmP8SHyeupA7XEk906IcjDkBTO2ioGUpK9G/on8toSSmqjQ
++IVsxJ+F9Gi6hYlPjzAObzQM5J9Umg4CmgfnC5oQrBa+ijepzc35IGCwIVRldPAc
+etTbbjN/iWzCh2rr0htbfsSOpbe8GVx/XuHLZPtS8regJ0Mgtk6Y/tUuOdhsx08L
+MQxl683IDj8+i6w8qc/vYCu4OQljODMwWx+1atHzgN3uX6lgt2Xla0hT4VzylKnp
+awIDAQAB
+-----END PUBLIC KEY-----
+
+
+client id
+1096440199667-i0iagubbvf68i5p61q5rd78ie5g0o2l3.apps.googleusercontent.com
+
+
+
+<script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCAu0n_UbyQgElh-EBrSrVuO-Xg2MQaGlo",
+    authDomain: "fir-auth-ext.firebaseapp.com",
+    databaseURL: "https://fir-auth-ext.firebaseio.com",
+    projectId: "fir-auth-ext",
+    storageBucket: "fir-auth-ext.appspot.com",
+    messagingSenderId: "1096440199667"
+  };
+  firebase.initializeApp(config);
+</script>
+
+https://firebase.google.com/docs/auth/web/start
+https://firebase.google.com/docs/web/setup
+https://console.firebase.google.com/project/fir-auth-ext/overview
+https://github.com/firebase/quickstart-js/tree/master/auth/chromextension
+https://chrome.google.com/webstore/developer/dashboard/g15999099943152125595
